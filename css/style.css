@@ -43,8 +43,9 @@ nav ul{
     gap: 1.5rem;
     font-size: 1.4em;
     color: #E574BC;
-}
+    font-family: 'Koulen', cursive
 
+}
 
 .logo{
     flex-basis: 3%;
@@ -59,7 +60,7 @@ nav ul{
 
 .productos{
    padding: 1rem;
-   font-size: small;
+   
 }
 .productos2{
     display: flex;
@@ -68,6 +69,9 @@ nav ul{
     height: 5rem;
     color: #E574BC;
     background-color:#FFD6BA;
+    font-size: x-large;
+
+    font-family: 'Koulen', cursive
 
 }
 
@@ -108,6 +112,8 @@ nav ul{
     transition: width 3s linear, heigth 2s ease-in-out;
 
 }
+
+
 /* fin estilo de Inicio */
 
 
@@ -120,6 +126,8 @@ nav ul{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    height: 150px;
+    
 }
 
 
@@ -212,6 +220,7 @@ nav ul{
     height: 5rem;
     color: #E574BC;
     background-color:#FFD6BA;
+    font-family: 'Koulen', cursive;
 
 }
 
@@ -240,6 +249,7 @@ nav ul{
     height: 5rem;
     color: #E574BC;
     background-color:#FFD6BA;
+    font-family: 'Koulen', cursive;
 
 }
 
@@ -314,6 +324,7 @@ nav ul{
     height: 5rem;
     color: #E574BC;
     background-color:#FFD6BA;
+    font-family: 'Koulen', cursive;
 
 }
 
@@ -323,6 +334,7 @@ nav ul{
     flex-direction: row;
     justify-items: center;
     padding: 55px;
+    font-family: 'Koulen', cursive;
 
 }
 .formcontacto1{

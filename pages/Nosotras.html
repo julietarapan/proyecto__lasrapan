@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+     <!-- CSS only -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
     
     <title> Nosotras </title>
 </head>
@@ -14,13 +17,23 @@
           <img src="../img/Las RAPAN png 1.png" class="logo" alt="logo" data-aos="fade-up-right">
         </picture>    
         <nav>
-           <ul data-aos="fade-down-left">
-                <li><a href="./Productos.html">Productos</a></li>
-                <li><a href="./Comocomprar.html">Como comprar</a></li>
-                <li><a href="./Nosotras.html">Nosotras</a></li>
-                <li><a href="./Contacto.html">Contacto</a></li>
-                <li><a href="../index.html">Inicio</a></li>
-           </ul>
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./Nosotras.html">Nosotras</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Comocomprar.html">Como comprar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                  </li>
+              </ul>    
         </nav>
     </header>
     <section>
@@ -44,7 +57,7 @@ Les damos la bienvenida a nuestro mini universo! Esperamos que les guste y se di
     <footer>
         <section class="footer">
             <div>
-                <h4>RECIBI NOVEDADES</h4>
+                <h4 class="fs-5">RECIBI NOVEDADES</h4>
                 <form action="./index.html" method="post"></form>
             
                 <label for="Email">Email</label>
@@ -54,7 +67,7 @@ Les damos la bienvenida a nuestro mini universo! Esperamos que les guste y se di
     
             <div>
                 <nav class="footer__redes"> 
-                    <h3>Seguinos en nuestras Redes</h3>
+                    <h3 class="fs-5">Seguinos en nuestras Redes</h3>
                     <a href="https://www.instagram.com/" class="instagram"> instagram</a>
                     <a href="https://www.facebook.com/LAS-RAPAN-101935371729125">facebook</a>
                 </nav>
@@ -62,5 +75,8 @@ Les damos la bienvenida a nuestro mini universo! Esperamos que les guste y se di
     
         </section>
     </footer>  
+ <!-- JavaScript Bundle with Popper -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  
 </body>
 </html>

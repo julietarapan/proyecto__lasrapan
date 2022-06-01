@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+     <!-- CSS only -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
     
     <title> Productos </title>
 
@@ -13,16 +16,26 @@
     <header>
         <picture>
           <img src="../img/Las RAPAN png 1.png" class="logo" alt="logo" data-aos="fade-up-right">
-        </picture>    
-        <nav>
-           <ul data-aos="fade-down-left">
-                <li><a href="./Productos.html">Productos</a></li>
-                <li><a href="./Comocomprar.html">Como comprar</a></li>
-                <li><a href="./Nosotras.html">Nosotras</a></li>
-                <li><a href="./Contacto.html">Contacto</a></li>
-                <li><a href="../index.html">Inicio</a></li>
-           </ul>
-        </nav>
+        </picture>
+    <nav>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./Productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Nosotras.html">Nosotras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Comocomprar.html">Como comprar</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./Contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+          </ul>    
+    </nav>
     </header>
 
     <section class="productos">
@@ -38,11 +51,43 @@
 
         </main>
 
+        <section class="productos">
+            <h2 class="productos2">Nuestros Productos</h2>
+        </section>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../img/jason-leung-HM6TMmevbZQ-unsplash.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/tiko-giorgadze-nBerkf7sLRM-unsplash.jpg" class="d-block w-100" alt="...">
+             </div>
+            <div class="carousel-item">
+                <img src="../img/daniel-schaffer-WlbOxX-tl6w-unsplash.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
 
     <footer>
         <section class="footer">
             <div>
-                <h4>RECIBI NOVEDADES</h4>
+                <h4 class="fs-5">RECIBI NOVEDADES</h4>
                 <form action="./index.html" method="post"></form>
             
                 <label for="Email">Email</label>
@@ -52,7 +97,7 @@
     
             <div>
                 <nav class="footer__redes"> 
-                    <h3>Seguinos en nuestras Redes</h3>
+                    <h3 class="fs-5">Seguinos en nuestras Redes</h3>
                     <a href="https://www.instagram.com/" class="instagram"> instagram</a>
                     <a href="https://www.facebook.com/LAS-RAPAN-101935371729125">facebook</a>
                 </nav>
@@ -64,5 +109,7 @@
         
         
     </footer>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
