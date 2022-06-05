@@ -16,7 +16,7 @@ a{
 /* Estilo de header */
 
 body{
-    background-image: url(../img/pawel-czerwinski-d7iIvTyzccY-unsplash.jpg);
+    background-image: url(../img/fondo.jpg);
     font-family: 'Koulen', cursive;
     display: grid;
     min-height: 100vh;
@@ -43,7 +43,8 @@ nav ul{
     gap: 1.5rem;
     font-size: 1.4em;
     color: #E574BC;
-    font-family: 'Koulen', cursive
+    font-family: 'Koulen', cursive;
+    list-style: none;
 
 }
 
