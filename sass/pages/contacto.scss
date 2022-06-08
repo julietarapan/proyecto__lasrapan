@@ -1,0 +1,139 @@
+/*   Estilo de CONTACTO */
+
+.Contactanos{
+    padding: 1rem;
+    font-size: small;
+
+}
+.titcontactanos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    color: #E574BC;
+    background-color:#FFD6BA;
+    font-family: 'Koulen', cursive;
+
+}
+
+.formcontacto{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    padding: 55px;
+    font-family: 'Koulen', cursive;
+
+}
+.formcontacto1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #FFD6BA;
+    font-family: 'Koulen', cursive;
+    color: #E574BC;
+}
+.formcontacto2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFD6BA;
+    font-family: 'Koulen', cursive;
+    color: #E574BC;
+}
+.formcontacto3{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/*   Fin de estilo de CONTACTO */
+
+
+
+
+
+/*    MEDIA QUERIES 480px */
+@media screen and (max-width: 480px) {
+
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        font-size: 0.8em;
+        align-items: center;
+    }
+    
+    .imgproductos1{
+        width: 100%;
+        height: 20rem;
+    }
+    .cajas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .formcontacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;   
+    
+    }
+    .formcontacto3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    
+    }
+
+    }
+    
+    /* FIN MEDIA QUERIES 480px */
+    
+    /*  MEDIA QUERIES 728px */
+    
+    @media screen and (max-width: 728px){
+    
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        font-size: 0.8em;
+        align-items: center;
+    }
+    .formcontacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;   
+    
+    }
+    .formcontacto3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    
+    }
+
+    }
+    
+    

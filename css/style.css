@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');  
-
+/* 
 * {
     margin: 0;
     padding: 0;
@@ -13,8 +13,10 @@ a{
     text-decoration: none;
     font-family: 'Koulen', cursive;
 }
-/* Estilo de header */
+/* 
 
+/* Estilo de header */
+/*
 body{
     background-image: url(../img/fondo.jpg);
     font-family: 'Koulen', cursive;
@@ -58,7 +60,7 @@ nav ul{
 /* Fin estilo de header */
 
 /* Estilo de Inicio */
-
+/* 
 .productos{
    padding: 1rem;
    
@@ -119,7 +121,7 @@ nav ul{
 
 
 /* Estilo de footer */
-
+/*
 .footer{
     color: #E574BC;
     font-family: 'Koulen', cursive;
@@ -135,7 +137,7 @@ nav ul{
 /* Fin estilo de footer */
 
 /*  Estilo de PRODUCTOS */
-
+/* 
  
 .galeriaproductos{
     display: grid;
@@ -209,7 +211,7 @@ nav ul{
 
 /*  Estilo de NOSOTRAS */
 
-.nosotras{
+/*.nosotras{
     padding: 1rem;
     font-size: small;
 
@@ -252,7 +254,7 @@ nav ul{
 /*  Fin estilo de NOSOTRAS */
 
 /*  Estilo de COMO COMPRAR */
-
+/* 
 .comocomprar{
     padding: 1rem;
     font-size: small;
@@ -328,6 +330,7 @@ nav ul{
 
 /*   Estilo de CONTACTO */
 
+/*
 .Contactanos{
     padding: 1rem;
     font-size: small;
@@ -383,6 +386,7 @@ nav ul{
 /*   Fin de estilo de CONTACTO */
 
 /*    MEDIA QUERIES 480px */
+/*
 @media screen and (max-width: 480px) {
 
 

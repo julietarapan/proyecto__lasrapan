@@ -1,0 +1,171 @@
+/* Estilo de Home */
+
+.productos{
+    padding: 1rem;
+    
+ }
+ .productos2{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 5rem;
+     color: #E574BC;
+     background-color:#FFD6BA;
+     font-size: x-large;
+ 
+     font-family: 'Koulen', cursive;
+ 
+ }
+ 
+ .imgproductos{
+     display: flex;
+     justify-content: center;
+     padding: 1.5rem;
+ 
+ }
+ 
+ .imgproductos1{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 75%;
+     height: 35rem;
+  
+ }
+ .caja:hover{
+     display: flex;
+     justify-content: center;
+     width: 15rem;
+     height: 15rem;
+     align-items: center;
+     background-image: url(../img/pawel-czerwinski-d7iIvTyzccY-unsplash.jpg);
+     font-size: x-large;
+     font-family: 'Koulen', cursive;
+ 
+ }
+  
+ .cajas{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     padding: 5rem;
+     gap: 1rem;
+     background-color: #E574BC;
+     transition: width 3s linear, heigth 2s ease-in-out;
+ 
+ }
+
+
+ /*    MEDIA QUERIES 480px */
+@media screen and (max-width: 480px) {
+
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        font-size: 0.8em;
+        align-items: center;
+    }
+    
+    .imgproductos1{
+        width: 100%;
+        height: 20rem;
+    }
+    .cajas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .galeriaproductos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .formcontacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;   
+    
+    }
+    .formcontacto3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    
+    }
+    
+    .cajascc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    }
+    
+    /* FIN MEDIA QUERIES 480px */
+    
+    /*  MEDIA QUERIES 728px */
+    
+    @media screen and (max-width: 728px){
+    
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        font-size: 0.8em;
+        align-items: center;
+    }
+    .imgproductos1{
+        width: 100%;
+        height: 20rem;
+    }
+    .cajas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .galeriaproductos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .formcontacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;   
+    
+    }
+    .formcontacto3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    
+    }
+    
+    .cajascc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    }
+    
+    /*  FIN MEDIA QUERIES 728px */
+    

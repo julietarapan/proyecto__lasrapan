@@ -1,0 +1,18 @@
+/* Externos */
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+/* Misc */
+@import './misc/normalize';
+@import './misc/variables';
+@import './misc/animatios';
+/* Partials */
+@import './partials/header';
+@import './partials/footer';
+/* Pages */
+@import './pages/comocomprar';
+@import './pages/contacto';
+@import './pages/inicio.scss';
+@import './pages/nosotras';
+@import './pages/productos';
+
+
