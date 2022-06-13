@@ -44,15 +44,14 @@ nav ul {
   flex-basis: 40%;
   display: flex;
   gap: 1.5rem;
-  font-size: 1.4em;
+  font-size: 1.2em;
   color: #E574BC;
   font-family: 'Koulen', cursive;
   list-style: none; }
 
 .logo {
   flex-basis: 3%;
-  display: flex;
-  padding: 15px; }
+  display: flex; }
 
 .footer {
   color: #E574BC;
@@ -66,8 +65,7 @@ nav ul {
 /* Pages */
 /*  Estilo de COMO COMPRAR */
 .comocomprar {
-  padding: 1rem;
-  font-size: small; }
+  padding: 1rem; }
 
 .titcomocomprar {
   display: flex;
@@ -75,7 +73,7 @@ nav ul {
   justify-content: center;
   align-items: center;
   gap: 0;
-  height: 5rem;
+  height: 3rem;
   color: #E574BC;
   background-color: #FFD6BA;
   font-family: 'Koulen', cursive; }
@@ -174,14 +172,13 @@ nav ul {
 /*  FIN MEDIA QUERIES 728px */
 /*   Estilo de CONTACTO */
 .Contactanos {
-  padding: 1rem;
-  font-size: small; }
+  padding: 1rem; }
 
 .titcontactanos {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 5rem;
+  height: 3rem;
   color: #E574BC;
   background-color: #FFD6BA;
   font-family: 'Koulen', cursive; }
@@ -300,8 +297,7 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 75%;
-  height: 35rem; }
+  height: 30rem; }
 
 .caja:hover {
   display: flex;
@@ -398,14 +394,13 @@ nav ul {
 /*  FIN MEDIA QUERIES 728px */
 /*  Estilo de NOSOTRAS */
 .nosotras {
-  padding: 1rem;
-  font-size: small; }
+  padding: 1rem; }
 
 .titnosotras {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 5rem;
+  height: 3rem;
   color: #E574BC;
   background-color: #FFD6BA;
   font-family: 'Koulen', cursive; }
@@ -505,18 +500,13 @@ nav ul {
 
 /*  FIN MEDIA QUERIES 728px */
 /* Estilo de PRODUCTOS */
-.box_img {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding: 1.5rem; }
-
 .galeriaproductos {
   display: grid;
   grid-template-columns: 2fr, 1fr, 1fr, 2fr;
-  grid-template-rows: repeat(3, 300px);
+  grid-template-rows: repeat(2, 300px);
+  align-items: center;
   gap: 10px;
-  margin-top: 100px; }
+  padding: 1rem; }
 
 .galeria1:hover {
   transform: scale(1.1, 1.1); }
@@ -570,7 +560,7 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 5rem;
+  height: 3rem;
   background-color: #FFD6BA;
   font-size: x-large;
   font-family: 'Koulen', cursive; }

@@ -1,19 +1,13 @@
 /* Estilo de PRODUCTOS */
-.box_img{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 1.5rem ;
 
-}
  
 .galeriaproductos{
     display: grid;
     grid-template-columns: 2fr, 1fr, 1fr, 2fr;
-    grid-template-rows: repeat(3, 300px);
+    grid-template-rows: repeat(2, 300px);
+    align-items: center;
     gap: 10px;
-    margin-top: 100px;
-    
+    padding: 1rem;
 }
 
 .galeria1:hover{
@@ -81,7 +75,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     height: 5rem;
+     height: 3rem;
      background-color:#FFD6BA;
      font-size: x-large;
      font-family: 'Koulen', cursive;

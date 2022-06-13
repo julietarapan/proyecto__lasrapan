@@ -2,12 +2,11 @@
 
 .comocomprar{
     padding: 1rem;
-    font-size: small;
 
 }
 .titcomocomprar{
     @include flex(center,center, center, 0);
-    height: 5rem;
+    height: 3rem;
     color: #E574BC;
     background-color:#FFD6BA;
     font-family: 'Koulen', cursive;
