@@ -1,62 +1,46 @@
-/* Estilo de Home */
+/*  Estilo de NOSOTRAS */
 
-.productos{
+.nosotras{
     padding: 1rem;
+    font-size: small;
+}
+
+
+.titnosotras{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 5rem;
+        color: map-get($colors, primary);
+        background-color: #FFD6BA;
+        font-family: 'Koulen', cursive;
+}
+.sobrenosotras{
+        color: map-get($colors, secondary);
+        font-family: 'Koulen', cursive;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 100px;
+}
     
- }
- .productos2{
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     height: 5rem;
-     color: #E574BC;
-     background-color:#FFD6BA;
-     font-size: x-large;
- 
-     font-family: 'Koulen', cursive;
- 
- }
- 
- .imgproductos{
-     display: flex;
-     justify-content: center;
-     padding: 1.5rem;
- 
- }
- 
- .imgproductos1{
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     width: 75%;
-     height: 35rem;
-  
- }
- .caja:hover{
-     display: flex;
-     justify-content: center;
-     width: 15rem;
-     height: 15rem;
-     align-items: center;
-     background-image: url(../img/pawel-czerwinski-d7iIvTyzccY-unsplash.jpg);
-     font-size: x-large;
-     font-family: 'Koulen', cursive;
- 
- }
-  
- .cajas{
-     display: flex;
-     flex-direction: row;
-     justify-content: center;
-     padding: 5rem;
-     gap: 1rem;
-     background-color: #E574BC;
-     transition: width 3s linear, heigth 2s ease-in-out;
- 
- }
+.imgnosotras{
+        display: flex;
+        justify-content: center;
+        padding: 1.5rem;
+}
+    
+.imgnosotras2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 75%;
+        height: 35rem;
+    
+}
 
 
- /*    MEDIA QUERIES 480px */
+/*    MEDIA QUERIES 480px */
 @media screen and (max-width: 480px) {
 
 

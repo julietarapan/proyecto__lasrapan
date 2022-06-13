@@ -1,0 +1,12 @@
+$colors: (
+    primary: #E574BC,
+    secondary: #FFD6BA,
+    text-color: #FFD6BA,
+
+);
+@each $color, $value in $colors {
+    #{$color} {
+        color: #{$value}
+    }
+    
+}

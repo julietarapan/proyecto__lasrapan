@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 
 /* Misc */
-@import './misc/normalize';
 @import './misc/variables';
+@import './misc/mixins';
+@import './misc/normalize';
 @import './misc/animatios';
 /* Partials */
 @import './partials/header';
@@ -11,7 +12,7 @@
 /* Pages */
 @import './pages/comocomprar';
 @import './pages/contacto';
-@import './pages/inicio.scss';
+@import './pages/inicio';
 @import './pages/nosotras';
 @import './pages/productos';
 

@@ -1,6 +1,15 @@
 /* Externos */
 @import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
 /* Misc */
+primary {
+  color: #E574BC; }
+
+secondary {
+  color: #FFD6BA; }
+
+text-color {
+  color: #FFD6BA; }
+
 /* Normalize */
 * {
   margin: 0;
@@ -62,8 +71,10 @@ nav ul {
 
 .titcomocomprar {
   display: flex;
+  flex-direction: center;
   justify-content: center;
   align-items: center;
+  gap: 0;
   height: 5rem;
   color: #E574BC;
   background-color: #FFD6BA;
@@ -74,16 +85,18 @@ nav ul {
   font-family: 'Koulen', cursive;
   text-align: center;
   display: flex;
+  flex-direction: center;
   justify-content: center;
   align-items: center;
+  gap: 0;
   padding: 50px; }
 
 .cajascc {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  justify-items: center;
   align-items: center;
+  gap: 0;
   padding: 100px; }
 
 .titpago {
@@ -102,6 +115,7 @@ nav ul {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  gap: 0;
   padding: 20px;
   width: 100%; }
 
@@ -113,6 +127,8 @@ nav ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  gap: 0;
   padding: 20px;
   width: 100%; }
 
@@ -254,18 +270,26 @@ nav ul {
     align-items: center; } }
 
 /* Estilo de Home */
+.box_img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem; }
+
 .productos {
   padding: 1rem; }
 
-.productos2 {
+.productos2, .productos2--active {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 5rem;
-  color: #E574BC;
   background-color: #FFD6BA;
   font-size: x-large;
   font-family: 'Koulen', cursive; }
+
+.productos2--active {
+  color: #E574BC; }
 
 .imgproductos {
   display: flex;
@@ -481,12 +505,17 @@ nav ul {
 
 /*  FIN MEDIA QUERIES 728px */
 /* Estilo de PRODUCTOS */
+.box_img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem; }
+
 .galeriaproductos {
   display: grid;
   grid-template-columns: 2fr, 1fr, 1fr, 2fr;
   grid-template-rows: repeat(3, 300px);
   gap: 10px;
-  padding: 10px;
   margin-top: 100px; }
 
 .galeria1:hover {
@@ -534,6 +563,21 @@ nav ul {
   background-size: cover;
   transition: all 2s linear; }
 
+.productos {
+  padding: 1rem; }
+
+.productos2, .productos2--active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  background-color: #FFD6BA;
+  font-size: x-large;
+  font-family: 'Koulen', cursive; }
+
+.productos2--active {
+  color: #E574BC; }
+
 /*    MEDIA QUERIES 480px */
 @media screen and (max-width: 480px) {
   body {
@@ -570,5 +614,8 @@ nav ul {
     display: flex;
     flex-direction: column;
     align-items: center; } }
+
+.w-100 {
+  width: 90%; }
 
 /*  FIN MEDIA QUERIES 728px */
