@@ -26,7 +26,6 @@ a {
 /* Partials */
 /* Estilo de header */
 body {
-  background-image: url(../img/fondo.jpg);
   font-family: 'Koulen', cursive;
   display: grid;
   min-height: 100vh;
@@ -34,23 +33,22 @@ body {
 
 header {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-image: linear-gradient(#e574bc, #FFD6BA); }
+  justify-content: center;
+  align-items: center; }
   header picture {
-    flex-basis: 30%; }
+    flex-basis: 50%; }
 
 nav ul {
-  flex-basis: 40%;
   display: flex;
   gap: 1.5rem;
   font-size: 1.2em;
-  color: #E574BC;
   font-family: 'Koulen', cursive;
-  list-style: none; }
+  list-style: none;
+  list-style-type: none;
+  justify-content: center; }
 
 .logo {
-  flex-basis: 3%;
+  flex-basis: 8%;
   display: flex; }
 
 .footer {
@@ -79,7 +77,7 @@ nav ul {
   font-family: 'Koulen', cursive; }
 
 .descripcioncc {
-  color: #FFD6BA;
+  color: #E574BC;
   font-family: 'Koulen', cursive;
   text-align: center;
   display: flex;
@@ -203,6 +201,7 @@ nav ul {
 .formcontacto2 {
   display: flex;
   text-align: center;
+  font-size: x-large;
   justify-content: center;
   align-items: center;
   background-color: #FFD6BA;
@@ -213,7 +212,8 @@ nav ul {
   width: 50%;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  font-size: large; }
 
 /*   Fin de estilo de CONTACTO */
 /*    MEDIA QUERIES 480px */
@@ -288,6 +288,13 @@ nav ul {
 .productos2--active {
   color: #E574BC; }
 
+.productos3 {
+  font-family: 'Koulen', cursive;
+  color: #E574BC;
+  text-align: center;
+  border-style: dashed;
+  border-color: #FFD6BA; }
+
 .imgproductos {
   display: grid;
   grid-template-columns: 2fr, 1fr, 1fr, 2fr;
@@ -351,12 +358,42 @@ nav ul {
   transform: scale(1.1, 1.1); }
 
 .img7 {
-  grid-column: 3;
+  grid-column: 4;
   background-size: cover;
   transition: all 2s linear; }
 
 .img7:hover {
   transform: scale(1.1, 1.1); }
+
+.texto1 {
+  grid-column: 3;
+  align-items: center; }
+
+.sobrenosotras2 {
+  color: #E574BC;
+  font-family: 'Koulen', cursive;
+  padding: 8%;
+  font-size: x-large;
+  text-align: center; }
+
+.sobrenosotras3 {
+  color: #FFD6BA;
+  padding: 5%;
+  font-family: 'Koulen', cursive;
+  text-align: center;
+  padding: 3rem; }
+
+.sobrenosotras4 {
+  color: #E574BC;
+  font-family: 'Koulen', cursive;
+  text-align: center; }
+
+.sobrenosotras5 {
+  color: #E574BC;
+  font-family: 'Koulen', cursive;
+  text-align: center;
+  font-size: x-large;
+  padding: 4rem; }
 
 /*    MEDIA QUERIES 480px */
 @media screen and (max-width: 480px) {
@@ -368,28 +405,14 @@ nav ul {
     flex-direction: column;
     font-size: 0.8em;
     align-items: center; }
-  .imgproductos1 {
+  .productos {
     width: 100%;
     height: 20rem; }
-  .cajas {
+  .imgproductos {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .galeriaproductos {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-  .formcontacto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem; }
-  .formcontacto3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-  .cajascc {
+  .imgproductos2 {
     display: flex;
     flex-direction: column;
     align-items: center; } }
@@ -405,28 +428,14 @@ nav ul {
     flex-direction: column;
     font-size: 0.8em;
     align-items: center; }
-  .imgproductos1 {
+  .productos {
     width: 100%;
     height: 20rem; }
-  .cajas {
+  .imgproductos {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .galeriaproductos {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-  .formcontacto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem; }
-  .formcontacto3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-  .cajascc {
+  .imgproductos2 {
     display: flex;
     flex-direction: column;
     align-items: center; } }
@@ -451,7 +460,9 @@ nav ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 100px; }
+  padding: 100px;
+  text-align: center;
+  color: #E574BC; }
 
 .imgnosotras {
   display: flex;
