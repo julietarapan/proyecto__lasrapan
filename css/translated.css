@@ -43,9 +43,14 @@ nav ul {
   gap: 1.5rem;
   font-size: 1.2em;
   font-family: 'Koulen', cursive;
+  justify-content: center;
   list-style: none;
-  list-style-type: none;
-  justify-content: center; }
+  list-style-position: none; }
+
+.navbar {
+  color: #FD5ED5;
+  border-style: dashed;
+  border-color: #FFD6BA; }
 
 .logo {
   flex-basis: 8%;
