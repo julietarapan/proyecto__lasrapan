@@ -160,13 +160,15 @@
     header{
         display: flex;
         flex-direction: column;
-        font-size: 0.8em;
         align-items: center;
     }
     
     .productos{
-        width: 100%;
-        height: 20rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+
     }
     .imgproductos{
         display: flex;
@@ -178,6 +180,38 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .img6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .img7{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobrenosotras2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }.sobrenosotras3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sobrenosotras4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+
 }
 
     
