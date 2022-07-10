@@ -144,10 +144,6 @@ nav ul {
   width: 500px;
   height: 480px; }
 
-.gif2 {
-  width: 200px;
-  height: 180px; }
-
 /*    MEDIA QUERIES 480px */
 @media screen and (max-width: 480px) {
   body {
